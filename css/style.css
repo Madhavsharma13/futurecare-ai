@@ -122,3 +122,34 @@ body{
 .card p{
     font-size:16px;
 }
+.statistics{
+    background:#eaf8ff;
+    padding:70px 20px;
+    text-align:center;
+}
+.statistics h2{
+    color:#0077b6;
+    font-size:36px;
+    margin-bottom:40px;
+}
+.stats-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+.stat-box{
+    width:200px;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.15);
+}
+.stat-box h3{
+    font-size:36px;
+    color:#0077b6;
+    margin-bottom:10px;
+}
+.stat-box p{
+    font-size:16px;
+}
