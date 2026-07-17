@@ -82,3 +82,43 @@ body{
     margin:auto;
     font-size:20px;
 }
+.features{
+    padding:70px 40px;
+    background:#ffffff;
+    text-align:center;
+}
+
+.features h2{
+    font-size:38px;
+    color:#0077b6;
+    margin-bottom:40px;
+}
+
+.feature-container{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.card{
+    width:260px;
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0077b6;
+    margin-bottom:15px;
+}
+
+.card p{
+    font-size:16px;
+}
