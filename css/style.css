@@ -36,11 +36,8 @@ body{
     color:#ffd60a;
 }
 .hero{
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    gap:40px;
-    padding:100px 60px;
+    text-align:center;
+    padding:100px 30px 60px;
     background:linear-gradient(135deg,#caf0f8,#90e0ef,#48cae4);
 }
 
@@ -53,8 +50,8 @@ body{
     margin-bottom:20px;
 }
 .hero p{
-    max-width:600px;
-    margin-Bottom:25px;
+    max-width:900px;
+    margin:20px auto;
     font-size:20px;
 }
 .hero button{
@@ -70,10 +67,7 @@ body{
 .hero button:hover{
     background:#023e8a;
 }
-.hero-content{
-    flex:1;
-    text-align:left;
-}
+
 
 .hero-image{
     width: 350px;
