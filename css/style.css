@@ -154,3 +154,38 @@ body{
 .stat-box p{
     font-size:16px;
 }
+.about p{
+    max-width: 900px;
+    margin: 20px auto;
+    line-height: 1.8;
+    font-size: 20px;
+    text-align: center;
+}
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+.card{
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;
+}
+.card h3{
+    color:#0077b6;
+    margin-bottom:10px;
+}
+.card p{
+    line-height:1.6;
+}
+@media (max-width:768px){
+    .feature-container,
+    .stats-container{
+        grid-template-columns:1fr;
+    }
+}
