@@ -37,7 +37,7 @@ body{
 }
 .hero{
     text-align:center;
-    padding:100px 30px;
+    padding:100px 30px 60px;
     background:linear-gradient(135deg,#caf0f8,#90e0ef,#48cae4);
 }
 
