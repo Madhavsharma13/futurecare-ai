@@ -189,3 +189,10 @@ body{
         grid-template-columns:1fr;
     }
 }
+.hero-image{
+    width: 450px;
+    max-width: 100%;
+    display: block;
+    margin: 40px auto;
+    border-radius: 15px;
+}
