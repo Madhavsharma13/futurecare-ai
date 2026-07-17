@@ -36,8 +36,11 @@ body{
     color:#ffd60a;
 }
 .hero{
-    text-align:center;
-    padding:100px 30px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+    padding:100px 60px;
     background:linear-gradient(135deg,#caf0f8,#90e0ef,#48cae4);
 }
 
@@ -67,7 +70,17 @@ body{
 .hero button:hover{
     background:#023e8a;
 }
+.hero-content{
+    flex:1;
+    text-align:left;
+}
 
+.hero-image{
+    width:450px;
+    max-width:100%;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
 .about{
     padding:70px;
     text-align:center;
