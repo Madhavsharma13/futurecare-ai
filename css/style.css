@@ -343,20 +343,22 @@ body{
 
 .process-container{
     display:flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
-    flex-wrap:wrap;
-    gap:15px;
+    flex-wrap:nowrap;
+    gap:20px;
+    overflow-x:auto;
 }
 
 .process-box{
-    background:white;
-    width:220px;
+    background:#ffffff;
+    min-width:220px;
     padding:20px;
     border-radius:15px;
     box-shadow:0 6px 15px rgba(0,0,0,.1);
     border-top:5px solid #0077b6;
     transition:0.3s;
+    text-align:center;
 }
 
 .process-box:hover{
