@@ -334,6 +334,9 @@ body{
 .diagnosis-process{
     padding:70px 10%;
     text-align:center;
+    background:#f8fbff;
+    border-radius:20px;
+    margin:60px 0;
 }
 
 .diagnosis-process h2{
