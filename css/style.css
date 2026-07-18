@@ -254,8 +254,8 @@ body{
 }
 
 .global-image img{
-    width:70%;
-    max-width:600px;
+    width:50%;
+    max-width:500px;
     border-radius:15px;
     box-shadow:0 8px 20px rgba(0,0,0,0.2);
 }
