@@ -261,3 +261,44 @@ body{
     border-radius:15px;
     box-shadow:0 8px 20px rgba(0,0,0,0.2);
 }
+/* Diagnosis Overview */
+
+.diagnosis-overview{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:40px;
+    padding:60px 10%;
+}
+
+.overview-text{
+    flex:1;
+}
+
+.overview-text h2{
+    color:#0b5ed7;
+    margin-bottom:20px;
+}
+
+.overview-text ul{
+    list-style:none;
+    padding:0;
+}
+
+.overview-text li{
+    margin-bottom:18px;
+    font-size:18px;
+    line-height:1.6;
+}
+
+.overview-image{
+    flex:1;
+    text-align:center;
+}
+
+.overview-image img{
+    width:100%;
+    max-width:500px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
