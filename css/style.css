@@ -303,3 +303,26 @@ body{
     border-radius:18px;
     box-shadow:0 10px 25px rgba(0,0,0,0.2);
 }
+.feature-card{
+    background:#f5fbff;
+    border-left:6px solid #0077b6;
+    padding:15px;
+    margin-bottom:18px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.feature-card:hover{
+    transform:translateY(-5px);
+}
+
+.feature-card h3{
+    color:#0077b6;
+    margin-bottom:8px;
+}
+
+.feature-card p{
+    color:#444;
+    line-height:1.6;
+}
