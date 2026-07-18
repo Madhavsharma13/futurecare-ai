@@ -212,7 +212,7 @@ body{
     margin-bottom:20px;
 }
 .page-banner p{
-    max-width:900px;
+    max-width:750px;
     margin:auto;
     font-size:20px;
     line-height:1.8;
@@ -246,4 +246,15 @@ body{
 }
 .card p{
     line-height:1.6;
+}
+.global-image{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.global-image img{
+    width:80%;
+    max-width:850px;
+    border-radius:15px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
 }
