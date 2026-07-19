@@ -530,3 +530,68 @@ body{
     font-size:22px;
     line-height:1.7;
 }
+.india-journey{
+    background:#06152d;
+    padding:80px 10%;
+    color:white;
+    text-align:center;
+}
+
+.india-journey h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.india-journey p{
+    max-width:900px;
+    margin:0 auto 50px;
+    font-size:18px;
+    line-height:1.8;
+    color:#d6e6ff;
+}
+.india-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.india-map{
+    flex:1;
+    min-width:300px;
+}
+.india-map img{
+    width:100%;
+    border-radius:18px;
+    box-shadow:0 0 25px rgba(0,150,255,0.4);
+}
+.india-info{
+    flex:1;
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+.info-card{
+    background:#0d2445;
+    padding:20px;
+    border-radius:15px;
+    text-align:left;
+    box-shadow:0 8px 20px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+.info-card:hover{
+    transform:translateY(-5px);
+    box-shadow:0 12px 25px rgba(0,150,255,0.4);
+}
+
+.info-card h3{
+    margin-bottom:10px;
+    color:#4db8ff;
+}
+.info-card p{
+    margin:0;
+    color:#e5e5e5;
+    font-size:16px;
+    line-height:1.6;
+}
