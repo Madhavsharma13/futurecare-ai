@@ -442,3 +442,58 @@ body{
     font-size:1.2rem;
     line-height:1.8;
 }
+/* Treatment Methods */
+
+.treatment-methods{
+    padding:80px 10%;
+}
+
+.treatment-methods h2{
+    text-align:center;
+    color:#0056b3;
+    font-size:2.4rem;
+    margin-bottom:60px;
+}
+
+.method-card{
+    display:flex;
+    align-items:center;
+    gap:50px;
+    margin-bottom:60px;
+    background:#ffffff;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 10px 25px rgba(0,0,0,0.12);
+    transition:0.3s;
+}
+
+.method-card:hover{
+    transform:translateY(-8px);
+}
+
+.method-card img{
+    width:45%;
+    height:320px;
+    object-fit:cover;
+}
+
+.method-content{
+    width:55%;
+    padding:30px;
+}
+
+.method-content h3{
+    color:#0077b6;
+    font-size:2rem;
+    margin-bottom:15px;
+}
+
+.method-content p{
+    color:#444;
+    line-height:1.8;
+    font-size:1.1rem;
+}
+
+.reverse{
+    flex-direction:row-reverse;
+}
