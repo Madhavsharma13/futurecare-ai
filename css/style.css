@@ -746,3 +746,9 @@ body{
     border-radius:18px;
     box-shadow:0 0 25px rgba(0,170,255,.45);
 }
+.video-note{
+    color:#7fd3ff;
+    font-size:17px;
+    margin-bottom:25px;
+    font-style:italic;
+}
