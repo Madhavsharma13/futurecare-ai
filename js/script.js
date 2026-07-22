@@ -55,3 +55,8 @@ function resetQuiz(){
     document.getElementById("result").innerHTML="";
 
 }
+function playAudio(){
+
+    document.getElementById("aiAudio").play();
+
+}
