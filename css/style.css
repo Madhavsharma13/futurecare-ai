@@ -968,3 +968,28 @@ body{
     background:#0088dd;
     transform:translateY(-5px);
 }
+.thankyou-section{
+    background:#081b38;
+    color:white;
+    text-align:center;
+    padding:90px 10%;
+}
+
+.thankyou-section i{
+    font-size:60px;
+    color:#31c3ff;
+    margin-bottom:20px;
+}
+
+.thankyou-section h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+
+.thankyou-section p{
+    max-width:850px;
+    margin:auto;
+    font-size:20px;
+    line-height:1.8;
+    color:#d9e8ff;
+}
