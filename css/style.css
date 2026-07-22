@@ -628,3 +628,50 @@ body{
     line-height:1.8;
     text-shadow:1px 1px 6px rgba(0,0,0,.8);
 }
+.future-tech{
+    padding:80px 10%;
+    background:#071a35;
+    text-align:center;
+    color:white;
+}
+
+.future-tech h2{
+    font-size:42px;
+    margin-bottom:20px;
+}
+.future-tech p{
+    max-width:850px;
+    margin:auto;
+    line-height:1.8;
+    color:#d8e8ff;
+}
+.tech-grid{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:30px;
+}
+.tech-card{
+    background:#10284c;
+    padding:35px;
+    border-radius:18px;
+    transition:.4s;
+    box-shadow:0 10px 25px rgba(0,0,0,.35);
+}
+.tech-card:hover{
+    transform:translateY(-10px);
+    box-shadow:0 0 25px rgba(0,180,255,.5);
+}
+.tech-card i{
+    font-size:50px;
+    color:#39b6ff;
+    margin-bottom:20px;
+}
+.tech-card h3{
+    margin-bottom:15px;
+    font-size:24px;
+}
+.tech-card p{
+    font-size:17px;
+    color:#dbe9ff;
+}
