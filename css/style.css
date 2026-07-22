@@ -852,3 +852,36 @@ body{
     font-size:28px;
     color:#7fe3ff;
 }
+/* Contact Hero */
+
+.contact-hero{
+    height:65vh;
+    background:url("../images/contact-bg.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.contact-overlay{
+    width:100%;
+    height:100%;
+    background:rgba(0,20,55,.65);
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.contact-overlay h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.contact-overlay p{
+    max-width:720px;
+    font-size:22px;
+    line-height:1.8;
+}
